@@ -1,3 +1,9 @@
+# Problem Statement
+Retail stores(12 to 13 Million) in India struggle to leverage business posibilities through ecommerce due to technical challenges.
+
+# Proposed Solution
+A web-app which requires user to click image of store shelves and it segments items, identifies them and adds description and category to it which ensures proper SEO performance. At intersection of Computer vision and LLM application, this provides a scalable solution with inference of over 41 items in 8 seconds.
+
 # Process
 
 - We started with using yolov5 with large parameters but then switched to `yolov11nano` for faster inference time
