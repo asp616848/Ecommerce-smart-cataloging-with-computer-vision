@@ -14,7 +14,7 @@ import google.generativeai as genai
 load_dotenv()
 
 app = Flask(__name__)
-CORS(app)
+CORS(app, resources={r"/*": {"origins": "https://ecommerce-smart-cataloging-with-com.vercel.app"}})
 
 UPLOAD_FOLDER = 'uploads'
 RESULTS_FOLDER = 'results'

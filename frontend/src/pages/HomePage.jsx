@@ -17,7 +17,7 @@ const HomePage = () => {
       const formData = new FormData();
       formData.append("image", file);
 
-      const response = await fetch("http://localhost:5000/api/detect", {
+      const response = await fetch("https://ecommerce-smart-cataloging-with-computer.onrender.com/api/detect", {
         method: "POST",
         body: formData,
         mode: "cors",
