@@ -16,8 +16,8 @@ load_dotenv()
 app = Flask(__name__)
 CORS(app, resources={r"/*": {
     "origins": [
+        "https://shelf-vision-alchemy.vercel.app/",
         "https://ecommerce-smart-cataloging-with-com.vercel.app",
-        "http://localhost:5173",
         "http://localhost:8080/"
     ]
 }})
